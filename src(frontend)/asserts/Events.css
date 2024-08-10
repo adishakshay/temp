@@ -1,0 +1,163 @@
+.events-page-content {
+  padding: 2rem;
+  position: relative;
+  text-align: center;
+}
+
+.event-background-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.event-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fadeIn 2s;
+}
+
+.event-description {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.event-form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1.5s;
+}
+
+.event-form-group {
+  margin-bottom: 1.5rem;
+}
+
+.event-form-group label {
+  display: flex;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.event-form-group input{
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.event-form-group select{
+  width: 618px;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.event-submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.event-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-popup-content {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event-popup-content h2 {
+  margin-bottom: 1rem;
+}
+
+.event-popup-content p {
+  margin-bottom: 0.5rem;
+}
+
+.event-popup-content button {
+  display: block;
+  margin: 1rem auto 0;
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.event-popup-content button:hover {
+  background-color: #0056b3;
+}
+
+.event-facts {
+  margin-top: 3rem;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 2s;
+}
+
+.event-facts h2 {
+  margin-bottom: 1rem;
+}
+
+.event-facts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.event-facts li {
+  margin-bottom: 0.5rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

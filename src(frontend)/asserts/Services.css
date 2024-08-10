@@ -1,0 +1,62 @@
+/* Services.css */
+
+.services-page-content {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services-page-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.services-page-content p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  color: #666;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.service-item {
+  background-color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.service-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  transition: transform 0.3s;
+}
+
+.service-item:hover .service-image {
+  transform: scale(1.05);
+}
+
+.service-item h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.service-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #666;
+}

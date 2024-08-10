@@ -1,0 +1,133 @@
+.about-page-content {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
+.about-header {
+  text-align: center;
+  padding: 3rem 0;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeInDown 1s ease-out;
+}
+
+.about-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-header p {
+  font-size: 1.5rem;
+}
+
+.about-mission, .about-team, .about-values, .about-history {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease-out;
+}
+
+.about-mission h2, .about-team h2, .about-values h2, .about-history h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+}
+
+.about-mission p, .about-team p, .about-history p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.about-team .team-intro {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.about-team .team-intro .team-image {
+  width: 300px;
+  height: auto;
+  margin-right: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.about-team .team-intro .team-image:hover {
+  transform: scale(1.05);
+}
+
+.about-team .team-members {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.team-member {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+}
+
+.team-member h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #007bff;
+}
+
+.team-member p {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-values ul {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+}
+
+.about-values li {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.about-values li strong {
+  color: #007bff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

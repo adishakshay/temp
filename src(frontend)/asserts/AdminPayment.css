@@ -1,0 +1,121 @@
+.admin-payment-page {
+    width: 100%;
+    padding: 2rem;
+    background-color: #f9f9f9;
+}
+
+.admin-payment-title {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.add-admin-payment-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.add-admin-payment-button-container .admin-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-admin-payment-button-container .admin-button:hover {
+    background-color: #218838;
+}
+
+.admin-payment-form {
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.admin-payment-form h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.admin-payment-form label {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.admin-payment-form input,
+.admin-payment-form select {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.admin-payment-form button {
+    padding: 0.75rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.admin-payment-form button:hover {
+    background-color: #0056b3;
+}
+
+.admin-payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.admin-payment-table th,
+.admin-payment-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.admin-payment-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.admin-payment-table td {
+    background-color: #fff;
+}
+
+/* .admin-payment-table .admin-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+} */
+/* 
+.admin-payment-table .admin-button:hover {
+    background-color: #c82333;
+} */
+
+.admin-button
+{
+    padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.admin-button:hover
+{
+    opacity: 0.8;
+}

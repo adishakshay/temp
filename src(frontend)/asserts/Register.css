@@ -1,0 +1,170 @@
+.register-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 2rem auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-container h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.register-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.register-table th, .register-table td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.register-table th {
+  background-color: #f9f9f9;
+  font-weight: 600;
+}
+
+.register-search-bar {
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.register-search-bar select,
+.register-search-bar input {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.register-search-bar select {
+  flex: 1;
+}
+
+.register-search-bar input {
+  flex: 2;
+}
+
+.register-table td button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background-color 0.3s, color 0.3s;
+  margin-bottom: 8px;
+  width: 70px;
+}
+
+.register-table td button:hover {
+  opacity: 0.9;
+}
+
+.register-edit-form, 
+.register-add-form {
+  /* margin-bottom: 2rem; */
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-edit-form-b, 
+.register-add-form-b {
+  /* margin-bottom: 2rem; */
+  width: 958px;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.register-edit-form h2, .register-add-form h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #444;
+}
+
+.register-edit-form input, .register-add-form input {
+  display: block;
+  width: calc(100% - 1rem);
+  margin: 0.5rem 0;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.register-edit-form button, .register-add-form button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.register-edit-form button:first-of-type, .register-add-form button:first-of-type {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.register-edit-form button:last-of-type, .register-add-form button:last-of-type {
+  background-color: #f44336;
+  color: #fff;
+}
+
+.register-edit-form button:first-of-type:hover, .register-add-form button:first-of-type:hover {
+  background-color: #45a049;
+}
+
+.register-edit-form button:last-of-type:hover, .register-add-form button:last-of-type:hover {
+  background-color: #e53935;
+}
+
+.register-table td button:hover {
+  opacity: 0.7;
+}
+
+.register-add-btn {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #28a745;
+  color: #fff;
+  font-size: 0.80rem;
+  margin-right: 0.1px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.register-add-btn:hover {
+  background-color: #45a049;
+}
+
+.add-register-button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+/* .add-register-button-container .register-add-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.add-register-button-container .register-add-btn:hover {
+  background-color: #218838;
+} */
